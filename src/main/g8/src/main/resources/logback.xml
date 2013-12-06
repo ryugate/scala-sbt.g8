@@ -1,5 +1,5 @@
 <configuration>
-  <property name="APP_HOME" value="$name$" />
+  <property name="APP_HOME" value="$name;format="Camel"$" />
 
   <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
     <encoder>
