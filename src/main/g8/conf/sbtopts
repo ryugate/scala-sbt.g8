@@ -47,9 +47,3 @@
 #
 #-java-home <path>
 
--Xmx1024M
--XX:MaxPermSize=512m
--XX:ReservedCodeCacheSize=256m
-
--Dfile.encoding=UTF-8
-
