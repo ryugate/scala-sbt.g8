@@ -12,9 +12,11 @@ org.scalastyle.sbt.ScalastylePlugin.Settings
 
 org.scalastyle.sbt.PluginKeys.config <<= baseDirectory {_ / "conf" / "scalastyle-config.xml" }
 
-jarName in assembly := "$name$.jar"
+assemblySettings
 
-mainClass in assembly := Some("$organization$.$name$")
+jarName in assembly := "$name;format="Camel"$.jar"
+
+mainClass in assembly := Some("$organization$.$name;format="Camel"$")
 
 scalacOptions ++= Seq("-feature", "-unchecked", "-deprecation")
 
