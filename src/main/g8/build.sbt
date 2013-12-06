@@ -1,3 +1,5 @@
+import AssemblyKeys._
+
 name := "$name$"
 
 version := "$version$"
@@ -9,8 +11,6 @@ scalaVersion := "$scala_version$"
 org.scalastyle.sbt.ScalastylePlugin.Settings
 
 org.scalastyle.sbt.PluginKeys.config <<= baseDirectory {_ / "conf" / "scalastyle-config.xml" }
-
-import AssemblyKeys._
 
 jarName in assembly := "$name$.jar"
 
