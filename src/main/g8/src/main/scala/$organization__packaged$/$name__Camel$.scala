@@ -7,9 +7,9 @@ object $name;format="Camel"$ {
 
   def main(args:Array[String]) {
     logger.info("Start")
-    // scalastyle: off
+    // scalastyle:off
     println("I am a sample App")
-    // scalastyle: on
+    // scalastyle:on
     logger.info("End")
   }
 }
