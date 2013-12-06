@@ -1,5 +1,5 @@
-A sample for the Typesafe Stack (http://typesafe.com/stack).
+Scala simple project using Scala and SBT.
 
-Scala sample project using Scala and SBT.
+forked from typesafe/scala-sbt
 
 To run and test it use SBT invoke: 'sbt run'
